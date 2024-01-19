@@ -1,0 +1,14 @@
+img {
+    width: 30px;
+    margin: 0 4px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    font-size: 20px;
+    padding: 5px;
+    border: 2px double black;
+}
