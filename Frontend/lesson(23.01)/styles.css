@@ -1,56 +1,62 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 section {
-    background:  #EEEFF1;
-    padding: 100px 0 135px;
+	background: #eeeff1;
+	padding: 100px 0 135px;
 }
 
 h1 {
-    text-align: center;
+	text-align: center;
 }
 
 p {
-    width: 540px;
-    margin: 50px auto 65px;
-    text-align: center;
-    color: #727272;
+	width: 540px;
+	margin: 50px auto 65px;
+	text-align: center;
+	color: #727272;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    width: 540px;
-    margin: auto;
+	display: flex;
+	flex-direction: column;
+	width: 540px;
+	margin: auto;
 }
 
 textarea {
-    margin: 20px 0 50px;
+	margin: 20px 0 50px;
 }
 
 .form-control {
-    display: flex;
-    column-gap: 30px;
+	display: flex;
+	column-gap: 30px;
 }
 
 .form-control input {
-    padding: 20px;
-    width: 255px;
-    height: 50px;
+	padding: 20px;
+	width: 255px;
+	height: 50px;
+	border: 1px solid black;
+	outline: none;
+	caret-color: red;
+}
 
+.form-control input:focus {
+	border: 1px solid red;
 }
 
 .btn_sub {
-   background-color: #34547A; 
-   color: #fff;
-   margin: 0 auto;
-   padding: 15px 20px;
-   border: none;
+	background-color: #34547a;
+	color: #fff;
+	margin: 0 auto;
+	padding: 15px 20px;
+	border: none;
 
-   font-size: 14px;
-   font-style: normal;
-   font-weight: 400;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
 }
