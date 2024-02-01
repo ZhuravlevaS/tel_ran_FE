@@ -1,0 +1,35 @@
+.wrap {
+	position: relative;
+}
+
+.block {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.block-red {
+	background: red;
+	top: 0;
+	left: 0;
+}
+
+.block-green {
+	background: green;
+	top: 50px;
+	left: 50px;
+	z-index: 1;
+}
+
+.block-green:hover {
+	width: 300px;
+	height: 300px;
+	transform: rotate(-45deg);
+	transition: all 1s;
+}
+
+.block-blue {
+	background: blue;
+	top: 100px;
+	left: 100px;
+}
