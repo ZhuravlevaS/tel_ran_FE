@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	border: 5px solid blue;
+	width: 600px;
+	margin: 0 auto;
+	height: 1500px;
+	position: relative;
+}
+
+.container div {
+	color: aqua;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.block1 {
+	background-color: beige;
+}
+
+.block2 {
+	background-color: cadetblue;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+
+.block3 {
+	background-color: lightgray;
+}
+
+.block4 {
+	background-color: lightsalmon;
+}
